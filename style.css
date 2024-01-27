@@ -57,6 +57,11 @@ nav{
 
 
   @media screen and (min-width: 765px) {
+
+    .fondoNB{
+      background: rgb(255, 255, 255);
+    }
+
     .logo2{ /* logo chico*/
       display: none;
     }
