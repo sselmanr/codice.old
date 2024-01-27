@@ -1,0 +1,74 @@
+:root {
+    --azul: #475897;
+    --morado: #36296E;
+    --gris: #4F4B49;
+  }
+
+@font-face { 
+    font-family: 'neuropol'; 
+    src: url('fonts/neuropol.otf') format('opentype'); 
+    font-weight: normal; 
+    font-style: normal; 
+ } 
+  
+ *{
+  font-family: 'neuropol' !important;
+ }
+
+.azul { 
+    color: var(--azul) !important;
+} 
+.morado { 
+  color: var(--morado) !important;
+} 
+.gris { 
+  color: var(--gris) !important;
+} 
+nav{
+    font-family: 'neuropol';
+    
+}
+
+
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .hamburger-menu .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    /* background-color: #333; */
+  }
+  
+  @media screen and (max-width: 765px) {
+    .logo1{ /* logo grande*/
+      display: none;
+    }
+
+    .fondoNB{
+      background: rgb(244, 244, 244);
+    }
+  }
+
+
+  @media screen and (min-width: 765px) {
+    .logo2{ /* logo chico*/
+      display: none;
+    }
+
+    section{
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+
+    .navbar-nav > li{
+      padding-left:10px;
+      padding-right:10px;
+    }
+    
+  }
